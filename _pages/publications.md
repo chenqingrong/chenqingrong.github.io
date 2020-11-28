@@ -4,7 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 <br>
-<b>[Understanding and Discovering Software Configuration Dependencies in Cloud and Datacenter Systems](https://chenqingrong.github.io/files/cDep.pdf)</b><br>
+<b>[Understanding and Discovering Software Configuration Dependencies in Cloud and Datacenter Systems](https://chenqingrong.github.io/files/cdep.pdf)</b><br>
 <b>Qingrong Chen</b>, Teng Wang, Owolabi Legunsen, Shanshan Li, and Tianyin Xu,<br>
 In Proceedings of the 2020 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (<b>ESEC/FSE'20</b>), Virtual Event, Nov. 2020.
 
