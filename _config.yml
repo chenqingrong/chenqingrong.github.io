@@ -10,7 +10,6 @@ locale                   : "en-US"
 title                    : "Qingrong Chen"
 title_separator          : "-"
 name                     : &name "Qingrong Chen"
-description              : &description "M.S. student, Computer Science Department, University of Illinois Urbana-Champaign"
 url                      : https://chenqingrong.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chenqingrong/chenqingrong.github.io"
@@ -82,10 +81,10 @@ analytics:
 author:
   name             : "Qingrong Chen"
   avatar           : "qingrong.jpg"
-  bio              : "M.S. student, Computer Science Department, University of Illinois Urbana-Champaign"
   location         : "Urbana, Illinois"
+  bio              : "Production Engineer, Facebook AI Infra."
   googlescholar    : "https://scholar.google.com/citations?user=-jID2YYAAAAJ&hl=en"
-  email            : "qc16@illinois.edu"
+  email            : "chenqr1995@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
