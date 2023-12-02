@@ -1,16 +1,16 @@
 # Site settings
-title: Dominik Moritz
-email: domoritz@cmu.edu
+title: Qingrong Chen
+email: chenqr1995@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-   Faculty at Carnegie Mellon University and Research Scientist at Apple. I create interactive data visualization and analysis tools. PhD from University of Washington.
+   Research Engineer at Bytedance, working on large lanague model systems.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.domoritz.de" # the base hostname & protocol for your site
-production_url: "https://www.domoritz.de"
-github_username: domoritz
+url: "https://www.chenqingrong.github.io" # the base hostname & protocol for your site
+production_url: "https://www.chenqingrong.githhub.io"
+github_username: chenqingrong
 permalink: /blog/:year/:month/:title.html
 
 twitter:
-  username: domoritz
+  username: Qingrong8
 
 sass:
   style: compressed
