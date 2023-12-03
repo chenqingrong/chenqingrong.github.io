@@ -3,15 +3,10 @@
   <nav class="container">
     <a class="site-title" href="{{ absolute_url }}/">{{ site.title }}</a>
 
-    <a href="{{ '/projects/' | relative_url }}" {% if current[1] == 'projects' %}aria-current="page" {% endif %}>Projects</a>
-    <a href="{{ '/publications/' | relative_url }}" {% if current[1] == 'publications' %}aria-current="page"{% endif %}>Publications</a>
-    <a href="{{ '/talks/' | relative_url }}" {% if current[1] == 'talks' %}aria-current="page"{% endif %}>Talks</a>
-    <a href="{{ '/blog/' | relative_url }}" {% if current[1] == 'blog' %}aria-current="page"{% endif %}>Blog</a>
     <a href="{{ '/cv/' | relative_url }}" {% if current[1] == 'cv' %}aria-current="page"{% endif %}>CV</a>
 
     <span class="external">
-      <a rel="me" href="https://vis.social/@dom"><i class="fab fa-mastodon" aria-hidden="true"></i> Mastodon</a>
-      <a href="https://github.com/domoritz"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+      <a href="https://github.com/chenqingrong"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
     </span>
   </nav>
 </header>
