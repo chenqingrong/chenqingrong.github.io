@@ -27,6 +27,6 @@ Zhu](https://nsec.sjtu.edu.cn/~hjzhu/).
 </picture>
 
 {:.no-list}
-* <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+* chenqr1995 at gmail.com
 </div>
 </div>
