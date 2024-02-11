@@ -261,6 +261,7 @@ PLATFORMS
 DEPENDENCIES
   faraday-retry (~> 2.2)
   github-pages
+  jekyll-mentions (~> 1.6)
   webrick (~> 1.8)
 
 BUNDLED WITH

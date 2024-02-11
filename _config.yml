@@ -1,12 +1,12 @@
 # Site settings
-title: Qingrong Chen
+title: Leo Chen
 email: chenqr1995@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-   Research Engineer at Bytedance, working on large lanague model systems.
+   Member of Technical Stuff at OpenAI, working on large lanague model systems.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.chenqingrong.github.io" # the base hostname & protocol for your site
-production_url: "https://www.chenqingrong.githhub.io"
-github_username: chenqingrong
+url: "https://www.leochen-ai.github.io" # the base hostname & protocol for your site
+production_url: "https://www.leochen-ai.githhub.io"
+github_username: leochen-ai
 permalink: /blog/:year/:month/:title.html
 
 twitter:
@@ -19,11 +19,7 @@ collections:
   publications:
     output: false
 
-jekyll-mentions:
-  base_url: https://twitter.com
-
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-mentions
