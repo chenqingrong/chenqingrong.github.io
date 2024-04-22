@@ -5,9 +5,6 @@ title: Blog posts
 ---
 
 {% include search.html %}
-
-<p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | absolute_url }}">via RSS</a></p>
-
 <div class="post-list">
   {% for post in site.posts %}
     {% assign currentdate = post.date | date: "%Y" %}
