@@ -33,3 +33,25 @@ In practice, to avoid generating too big numbers when Q and K are multiplied tog
 ```
 softmax(QK^T / sqrt(d_k))V, where d_k is the dimension of values.
 ```
+
+##### Multi-head Attention Layer
+Instead of just using one set of `Q`, `K`, `V` matrix, the attention layer splits the `Q`, `K` and `V` matrixs into h smaller matrixs `Qi`, `Ki` and `Vi` where `i` is from 1 to h. Each set of `Qi`, `Ki`, and `Vi` is called as one head of
+the attention layer and the final result will be concatanating the results from these h heads. So, although the mathematical computations remain the same, these h heads are expected to capture different features from the input.
+A graph representation is as follows:
+<picture>
+<img src="{{ 'images/multi-head-attention.png' | relative_url }}" width="500">
+</picture>
+
+##### Feed-forward Layer
+This is just two layers of Perceptron where matematically, it could be described as follows:
+```
+y = max(0, x * W1 +b1) * W2 + b2
+```
+
+##### Position Encoding
+To help the model understand the sequential property of the input, the embedding of each token adds up a position encoding information which is expressed as follows:
+```
+PE(pos,2i) = sin(pos/10000^(2i/dmodel))
+PE(pos,2i+1) = cos(pos/10000^(2i/dmodel))
+```
+More information around cos and sin of position encoding could be found from [paper](https://arxiv.org/abs/1705.03122). 
